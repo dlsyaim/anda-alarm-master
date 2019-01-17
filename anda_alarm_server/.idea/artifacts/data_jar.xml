@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="data:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/data_jar</output-path>
+    <root id="root">
+      <element id="archive" name="anda-alarm-data.jar">
+        <element id="module-output" name="data" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../hb_ivr_functions/lib/gson-2.8.5.jar" />
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar" />
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.0/lombok-1.18.0.jar" />
+    </root>
+  </artifact>
+</component>

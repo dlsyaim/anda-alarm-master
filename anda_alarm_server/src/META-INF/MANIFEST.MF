@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Class-Path: httpclient-4.5.2.jar netty-codec-http-4.0.25.Final.jar net
+ ty-common-4.0.25.Final.jar netty-codec-4.0.25.Final.jar netty-handler
+ -4.0.25.Final.jar commons-lang3-3.4.jar slf4j-api-1.7.24.jar netty-tr
+ ansport-4.0.25.Final.jar netty-buffer-4.0.25.Final.jar httpcore-4.4.4
+ .jar jackson-core-2.9.6.jar jackson-databind-2.4.3.jar commons-beanut
+ ils-1.9.2.jar commons-collections-3.2.1.jar jackson-annotations-2.4.0
+ .jar gson-2.8.5.jar commons-logging-1.1.1.jar netty-transport-native-
+ epoll-4.0.25.Final.jar commons-codec-1.9.jar slf4j-nop-1.7.24.jar net
+ ty-socketio-1.7.7.jar
+Main-Class: qqhl.andaalarm.server.ServerContainer
+
