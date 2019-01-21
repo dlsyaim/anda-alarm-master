@@ -59,6 +59,14 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         Channel channel = ctx.channel();
         Message message = (Message)msg;
+        ChannelAttachment attr = alarmServer.channelAttachmentMap.get(channel);
+        if (message instanceof HostLoginRequestMessage) {
+            // 记录登录主机设备标识
+            attr.hostId = ((HostLoginRequestMessage) message).hostId;
+            alarmServer.hostChannelMap.put(message.hostId, channel);
+        }
+        message.hostId = attr.hostId;
+
         doResponse(message, channel);
         forwardMessage(message);
     }
@@ -84,7 +92,6 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
     private void doResponse(Message message, Channel channel) {
         byte[] reponseBytes;
         if (message instanceof HostLoginRequestMessage) {
-            alarmServer.hostChannelMap.put(message.hostId, channel);
             // 告诉主机它登录成功了
             Calendar now = Calendar.getInstance();
             int y = now.get(Calendar.YEAR);
