@@ -6,7 +6,6 @@ import com.corundumstudio.socketio.listener.DataListener;
 import qqhl.andaalarm.server.websocket.ClientSubscription;
 import qqhl.andaalarm.server.websocket.WebSocketServer;
 
-
 public class MessageSubscribeListener implements DataListener<ClientSubscription> {
     private WebSocketServer server;
 

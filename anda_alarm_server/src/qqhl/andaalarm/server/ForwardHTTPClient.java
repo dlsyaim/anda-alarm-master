@@ -1,8 +1,5 @@
 package qqhl.andaalarm.server;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonObject;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
@@ -17,23 +14,21 @@ import qqhl.andaalarm.data.message.types.Message;
 /**
  * @author hulang
  */
-public class HTTPClient {
+public class ForwardHTTPClient {
     private static HttpClient httpClient = HttpClients.createDefault();
     private static RequestConfig requestConfig;
-    private static String forwardHttpUrl;
-
     static {
         requestConfig = RequestConfig.custom()
                 .setSocketTimeout(2000)
                 .setConnectTimeout(2000).build();//设置请求和传输超时时间
-        forwardHttpUrl = Config.getProperty("forward.http.url");
     }
+    private static String forwardUrl = Config.getProperty("forward.url");
 
     public static void doPost(Message message) throws Exception {
         if (!(message instanceof HostEventMessage)) {
             return;
         }
-        HttpPost post = new HttpPost(forwardHttpUrl);
+        HttpPost post = new HttpPost(forwardUrl);
         post.setEntity(EntityBuilder.create()
             .setContentEncoding("utf-8")
             .setContentType(ContentType.APPLICATION_JSON)

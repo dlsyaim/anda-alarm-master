@@ -8,7 +8,7 @@ import io.netty.handler.timeout.IdleStateEvent;
 import qqhl.andaalarm.data.message.types.HostLoginRequestMessage;
 import qqhl.andaalarm.data.message.types.IdleStateEventMessage;
 import qqhl.andaalarm.data.message.types.Message;
-import qqhl.andaalarm.server.HTTPClient;
+import qqhl.andaalarm.server.ForwardHTTPClient;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -49,8 +49,9 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
+        ChannelAttachment attr = alarmServer.channelAttachmentMap.get(channel);
+        alarmServer.hostChannelMap.remove(attr.hostId);
         alarmServer.channelAttachmentMap.remove(channel);
-        alarmServer.hostChannelMap.remove(channel);
         forwardIdleStateEventMessage(channel);
     }
 
@@ -63,7 +64,7 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
     }
 
     private void forwardMessage(Message message) throws Exception {
-        HTTPClient.doPost(message);
+        ForwardHTTPClient.doPost(message);
         alarmServer.serverContainer.webSocketServer.sendMessageToClients(message);
     }
 
@@ -83,6 +84,7 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
     private void doResponse(Message message, Channel channel) {
         byte[] reponseBytes;
         if (message instanceof HostLoginRequestMessage) {
+            alarmServer.hostChannelMap.put(message.hostId, channel);
             // 告诉主机它登录成功了
             Calendar now = Calendar.getInstance();
             int y = now.get(Calendar.YEAR);

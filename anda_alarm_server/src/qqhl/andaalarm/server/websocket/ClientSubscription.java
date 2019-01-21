@@ -1,8 +1,14 @@
 package qqhl.andaalarm.server.websocket;
 
+import lombok.Data;
+import org.apache.commons.lang3.StringUtils;
+
+@Data
 public class ClientSubscription {
-    public int[] messageTypes;
-    public int[] subTypes;
+    private String channel;
+    private String hostId;
+    private int[] messageTypes;
+    private int[] subTypes;
 
     public void setMessageTypes(String csv) {
         String[] ss = csv.split(",");
@@ -10,8 +16,10 @@ public class ClientSubscription {
     }
 
     public void setSubTypes(String csv) {
-        String[] ss = csv.split(",");
-        fillInts(subTypes = new int[ss.length], ss);
+        if (StringUtils.isNotEmpty(csv)) {
+            String[] ss = csv.split(",");
+            fillInts(subTypes = new int[ss.length], ss);
+        }
     }
 
     private void fillInts(int[] arr, String[] ss) {

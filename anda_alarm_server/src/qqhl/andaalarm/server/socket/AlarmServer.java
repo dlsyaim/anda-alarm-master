@@ -50,13 +50,20 @@ public class AlarmServer {
                 }).bind(port);
     }
 
+    public int queryHostOnlineState(String hostId) {
+        return hostChannelMap.get(hostId) != null ? 1 : 0;
+    }
+
     public int sendCommand(HostCommand hostCommand) {
         Channel channel = hostChannelMap.get(hostCommand.hostId);
         if (! (channel != null && channel.isOpen())) {
             return 1;
         }
         try {
-            channel.write(Unpooled.copiedBuffer(new byte[]{ 0X11, (byte) hostCommand.cmdType }));
+            channel.writeAndFlush(Unpooled.copiedBuffer(new byte[]{
+                    (byte) 0xAD, (byte) 0xCC, 0x02, 0x00,
+                    0X11, (byte) hostCommand.cmdType,
+                    0x0D, 0x0A, 0x0D, 0x0A}));
             return 0;
         } catch (Exception e) {
             e.printStackTrace();
