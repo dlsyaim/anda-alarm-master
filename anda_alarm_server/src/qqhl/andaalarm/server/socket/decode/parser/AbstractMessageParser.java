@@ -1,5 +1,6 @@
-package qqhl.andaalarm.server.socket.parser;
+package qqhl.andaalarm.server.socket.decode.parser;
 
+import io.netty.buffer.ByteBuf;
 import qqhl.andaalarm.data.message.types.Message;
 
 /**
@@ -7,5 +8,5 @@ import qqhl.andaalarm.data.message.types.Message;
  * @author hulang
  */
 public abstract class AbstractMessageParser {
-    abstract Message parse(int[] bytes);
+    abstract Message parse(ByteBuf byteBuf);
 }

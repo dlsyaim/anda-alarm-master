@@ -60,12 +60,12 @@ public class WebSocketServer extends SocketIOServer {
             ClientSubscription subscription = (ClientSubscription)client.get("subscription");
             if (subscription != null) {
                 if (StringUtils.isNotEmpty(subscription.getHostId())) {
-                    if (message.hostId.equals(subscription.getHostId())) {
+                    if (message.getHostId().equals(subscription.getHostId())) {
                         send = true;
                     }
                 } else if (StringUtils.isNotEmpty(subscription.getChannel())) {
                     if (channel == null)
-                        channel = ChannelQuery.getChannelByHostId(message.hostId);
+                        channel = ChannelQuery.getChannelByHostId(message.getHostId());
                     if (channel != null && channel.equals(subscription.getChannel())) {
                         send = true;
                     }

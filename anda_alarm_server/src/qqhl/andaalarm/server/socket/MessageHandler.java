@@ -40,19 +40,22 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
     }
 
     @Override
-    public void channelRegistered(ChannelHandlerContext ctx) {
+    public void channelActive(ChannelHandlerContext ctx) {
         ChannelAttachment state = new ChannelAttachment();
         state.idle = false;
         alarmServer.channelAttachmentMap.put(ctx.channel(), state);
     }
 
     @Override
-    public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
         ChannelAttachment attr = alarmServer.channelAttachmentMap.get(channel);
-        alarmServer.hostChannelMap.remove(attr.hostId);
         alarmServer.channelAttachmentMap.remove(channel);
-        forwardIdleStateEventMessage(channel);
+
+        if (attr.hostId != null && alarmServer.hostChannelMap.get(attr.hostId) == channel) {
+            forwardIdleStateEventMessage(channel);
+            alarmServer.hostChannelMap.remove(attr.hostId);
+        }
     }
 
     @Override
@@ -78,7 +81,7 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
 
     private void forwardIdleStateEventMessage(Channel channel) throws Exception {
         ChannelAttachment state = alarmServer.channelAttachmentMap.get(channel);
-        if (state == null || state.idle) {
+        if (state == null || state.idle || state.hostId == null) {
             return;
         }
         state.idle = true;
@@ -96,15 +99,14 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
             Calendar now = Calendar.getInstance();
             int y = now.get(Calendar.YEAR);
             reponseBytes = new byte[]{
-                    (byte) 0xAD, (byte) 0xCC, 0x09, 0x00, 0x06, (byte) 0x99,
+                    0x06, (byte) 0x99,
                     (byte) now.get(Calendar.SECOND),
                     (byte) now.get(Calendar.MINUTE),
                     (byte) now.get(Calendar.HOUR_OF_DAY),
                     (byte) now.get(Calendar.DATE),
                     (byte) (now.get(Calendar.MONTH) + 1),
                     (byte) (y % 100),
-                    (byte) (y / 100),
-                    0x0D, 0x0A, 0x0D, 0x0A
+                    (byte) (y / 100)
             };
         } else {
             reponseBytes = NORMAL_RESPONSE;

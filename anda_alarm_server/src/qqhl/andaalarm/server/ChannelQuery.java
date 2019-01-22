@@ -14,8 +14,8 @@ public class ChannelQuery {
     private static RequestConfig requestConfig;
     static {
         requestConfig = RequestConfig.custom()
-                .setSocketTimeout(2000)
-                .setConnectTimeout(2000).build();//设置请求和传输超时时间
+                .setSocketTimeout(10000)
+                .setConnectTimeout(10000).build();//设置请求和传输超时时间
     }
     private static String channelQueryUrl = Config.getProperty("channelQuery.url") + "?hostId=";
 

@@ -18,6 +18,20 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/anda_alarm_server$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1547286321387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="486984090">
       <usages-collector id="statistics.lifecycle.project">
@@ -56,65 +70,71 @@
     <session id="-1163312933">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="dummy" value="183" />
           <entry key="ft" value="12" />
-          <entry key="java" value="15366" />
+          <entry key="java" value="19151" />
           <entry key="js" value="1309" />
-          <entry key="properties" value="227" />
+          <entry key="properties" value="422" />
           <entry key="sh" value="215" />
-          <entry key="txt" value="116" />
-          <entry key="xml" value="88" />
+          <entry key="txt" value="151" />
+          <entry key="xml" value="368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="15366" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="19151" />
           <entry key="JavaScript" value="1309" />
-          <entry key="PLAIN_TEXT" value="514" />
-          <entry key="Properties" value="227" />
+          <entry key="PLAIN_TEXT" value="549" />
+          <entry key="Properties" value="422" />
           <entry key="VTL" value="12" />
-          <entry key="XML" value="88" />
+          <entry key="XML" value="368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="51" />
-          <entry key="java" value="468" />
-          <entry key="js" value="17" />
-          <entry key="properties" value="19" />
+          <entry key="class" value="67" />
+          <entry key="java" value="646" />
+          <entry key="js" value="18" />
+          <entry key="properties" value="23" />
           <entry key="sh" value="4" />
-          <entry key="txt" value="39" />
-          <entry key="xml" value="1" />
+          <entry key="txt" value="51" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="51" />
-          <entry key="JAVA" value="468" />
-          <entry key="JavaScript" value="17" />
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Properties" value="19" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="67" />
+          <entry key="JAVA" value="646" />
+          <entry key="JavaScript" value="18" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="Properties" value="23" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -123,106 +143,7 @@
     <favorites_list name="anda_alarm_server" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/ServerContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/HostCommandListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/MessageSubscribeListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/ClientSubscription.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/安达报警通信协议(17-9).txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/test-data-builder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="48" column="43" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/WebSocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,18 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>start</find>
-      <find>start0()</find>
-      <find>empty</find>
-      <find>queueIsEmpty</find>
-      <find>ArrayBlockingQueue</find>
-      <find>add(</find>
-      <find>put</find>
-      <find>endian</find>
-      <find>offset</find>
-      <find>BigInteger(</find>
-      <find>BigInteger</find>
-      <find>hostDevice</find>
       <find>register</find>
       <find>parse</find>
       <find>HostDevice</find>
@@ -256,10 +165,25 @@
       <find>decode()</find>
       <find>c</find>
       <find>decode</find>
-      <find>decode(</find>
       <find>channelRead</find>
       <find>singleDecode</find>
+      <find>writeShort</find>
+      <find>decode(</find>
+      <find>callEn</find>
+      <find>discard</find>
+      <find>callDecoder</find>
       <find>cumulation</find>
+      <find>discardSomeReadBytes</find>
+      <find>isReadable</find>
+      <find>callDecode</find>
+      <find>channelUn</find>
+      <find>channelIncative</find>
+      <find>System</find>
+      <find>hashCode</find>
+      <find>hostChannelMap</find>
+      <find>forwardIdleStateEventMessage</find>
+      <find>hostId</find>
+      <find>Syste</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -269,27 +193,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarmserver/socket/message/types/HostEventMessage.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarmserver/socket/message/parser/HostEventMessageParser.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarmserver/socket/message/parser/MapToMessage.java" />
-        <option value="$PROJECT_DIR$/data/src/message/parser/MapToMessage.java" />
-        <option value="$PROJECT_DIR$/data/src/qqhl/andaalarmserver/message/parser/MapToMessage.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarmserver/Config.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarmserver/socket/Server.java" />
-        <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/parser/MapToMessage.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageForwarder.java" />
-        <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/JsonUtils.java" />
-        <option value="$PROJECT_DIR$/scripts/startup.sh" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/MyWebSocket.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/Server.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/Server.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/MessageForwarder.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/HTTPClient.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/CommandSender.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/HostCommand.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/CommandQueueManager.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/Config.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/doc/test-data-builder.js" />
         <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/types/HostEventMessage.java" />
         <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/parser/HostLoginRequestMessageParser.java" />
@@ -307,19 +216,34 @@
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/AlarmChannelInboundHandler.java" />
         <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/parser/MessageParser.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/ChannelInboundHandler.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageDecoder.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/ChannelAttachment.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageHandler.java" />
-        <option value="$PROJECT_DIR$/src/config.properties" />
         <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/MapToMessage.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/parser/MessageParser.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/HostCommandListener.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/AlarmServer.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/ServerContainer.java" />
         <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/Types.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/ClientSubscription.java" />
-        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/WebSocketServer.java" />
         <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/MessageSubscribeListener.java" />
+        <option value="$PROJECT_DIR$/doc/readme.txt" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/ClientSubscription.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/HTTPClient.java" />
+        <option value="$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/types/IdleStateEventMessage.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/HostCommandListener.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/ChannelAttachment.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageDecoder.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/MessageParser.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/AbstractMessageParser.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/HostLoginRequestMessageParser.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/HostEventMessageParser.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/HostHeartbeatMessageParser.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/OnlineStateQueryListener.java" />
+        <option value="$PROJECT_DIR$/src/config.properties" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/ForwardHTTPClient.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/ChannelQuery.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/MessageDecoder.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/AlarmServer.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageEncoder.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/CommandResultParser.java" />
+        <option value="$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageHandler.java" />
       </list>
     </option>
   </component>
@@ -329,11 +253,27 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="anda-alarm-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="anda-alarm-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="97" />
-    <option name="y" value="91" />
+    <option name="x" value="67" />
+    <option name="y" value="217" />
     <option name="width" value="1349" />
-    <option name="height" value="760" />
+    <option name="height" value="582" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -341,7 +281,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,33 +296,7 @@
             <path>
               <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
@@ -408,6 +321,23 @@
               <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="decode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="decode" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anda_alarm_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anda_alarm_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="websocket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,6 +352,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,13 +362,14 @@
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/io/netty/netty-common/4.0.25.Final/netty-common-4.0.25.Final.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15457685" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15716752" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="qqhl.andaalarm.server" />
       <recent name="qqhl.andaalarm.server.websocket.listeners" />
       <recent name="qqhl.andaalarm.data.message" />
       <recent name="qqhl.andaalarm.server.socket" />
@@ -503,11 +435,18 @@
       <workItem from="1547600756861" duration="24496000" />
       <workItem from="1547687448389" duration="26391000" />
       <workItem from="1547714536584" duration="4966000" />
+      <workItem from="1547773563760" duration="4585000" />
+      <workItem from="1547793890297" duration="606000" />
+      <workItem from="1547804574583" duration="989000" />
+      <workItem from="1547873637393" duration="13766000" />
+      <workItem from="1548040516813" duration="13254000" />
+      <workItem from="1548062570140" duration="1512000" />
+      <workItem from="1548119203818" duration="31611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169281000" />
+    <option name="totallyTimeSpent" value="235604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,32 +460,32 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8170564" visible="true" weight="0.23521851" />
-      <window_info id="Structure" order="1" sideWeight="0.47619048" side_tool="true" weight="0.27956298" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.814741" visible="true" weight="0.25449872" />
+      <window_info id="Structure" order="1" sideWeight="0.183391" side_tool="true" weight="0.25449872" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.1829436" side_tool="true" weight="0.2911311" />
+      <window_info id="Favorites" order="4" sideWeight="0.18525897" side_tool="true" visible="true" weight="0.25449872" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88817483" weight="0.0989011" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8419023" weight="0.385989" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88431877" weight="0.31181318" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.88688946" weight="0.26648352" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.17582418" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49550128" weight="0.027472528" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50771207" side_tool="true" weight="0.31593406" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11568123" side_tool="true" visible="true" weight="0.31043956" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4929306" weight="0.31593406" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49164525" weight="0.31593406" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24935733" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32969153" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="6" visible="true" weight="0.22879177" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
     </layout>
   </component>
@@ -556,225 +495,113 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/JDK8/src.zip!/java/lang/Iterable.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/JDK8/src.zip!/java/lang/Iterable.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/MessageSubscribeListener.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageHandler.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>inByteBuf.readableBytes()</expression-string>
+        <expression-string>in.readableBytes()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>io.netty.buffer.PooledUnsafeDirectByteBuf</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>in.readableBytes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>in.isReadable()</expression-string>
+        <expression-string>rest.readableBytes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>in.getByte(2)</expression-string>
+        <expression-string>internalBuffer().readableBytes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>in.getByte(1)</expression-string>
+        <expression-string>internalBuffer()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>in.getByte(0)</expression-string>
+        <expression-string>internalBuffer().()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inByteBuf.hashCode()</expression-string>
+        <expression-string>internalBuffer().discardReadBytes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inByteBuf.getByte(0)</expression-string>
+        <expression-string>callDecode</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inByteBuf.getByte(5)</expression-string>
+        <expression-string>cumulation.readableBytes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inByteBuf.getByte(4)</expression-string>
+        <expression-string>data.readableBytes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/AbstractMessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="372" column="20" selection-start-line="372" selection-start-column="20" selection-end-line="372" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/types/IdleStateEventMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/UnpooledUnsafeDirectByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        <state relative-caret-position="286">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#6623#6624#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/parser/AbstractMessageParser.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/handler/codec/MessageToByteEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/parser/HostLoginRequestMessageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-codec/4.0.25.Final/netty-codec-4.0.25.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/SocketServer.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="846" selection-start-line="846" selection-end-line="846" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-common/4.0.25.Final/netty-common-4.0.25.Final-sources.jar!/io/netty/util/internal/RecyclableArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#1703#1704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#4075#4076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="392" column="38" selection-start-line="392" selection-start-column="28" selection-end-line="392" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/WrappedByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="e#2795#2796#0" expanded="true" />
-            <element signature="e#9404#9405#0" expanded="true" />
-            <element signature="e#9441#9442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/EmptyByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="439" selection-start-line="439" selection-end-line="439" />
-          <folding>
-            <element signature="e#10418#10419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-codec/4.0.25.Final/netty-codec-4.0.25.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="67" column="59" lean-forward="true" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
-          <folding>
-            <element signature="e#4024#4025#0" expanded="true" />
-            <element signature="e#4059#4060#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1143">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/UnpooledHeapByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.0.25.Final/netty-buffer-4.0.25.Final-sources.jar!/io/netty/buffer/Unpooled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="162" column="30" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-handler/4.0.25.Final/netty-handler-4.0.25.Final-sources.jar!/io/netty/handler/timeout/IdleStateEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#1825#1826#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -785,175 +612,320 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-handler/4.0.25.Final/netty-handler-4.0.25.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/handler/codec/CodecOutputList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/ChannelAttachment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="290" selection-start-line="290" selection-end-line="290" />
+        <state relative-caret-position="165">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
-            <element signature="e#8453#8454#0" expanded="true" />
+            <element signature="e#3346#3347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/Channel.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/util/internal/ObjectUtil.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="276" column="18" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+        <state relative-caret-position="132">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/util/ReferenceCountUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="293" selection-start-line="293" selection-end-line="293" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="240" column="28" selection-start-line="240" selection-start-column="28" selection-end-line="240" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/util/internal/ObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/util/ReferenceCountUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/CodecOutputList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="202" column="11" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/util/ReferenceCounted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="342" selection-start-line="342" selection-end-line="342" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="156" column="29" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+          <folding>
+            <element signature="e#2806#2807#0" expanded="true" />
+            <element signature="e#2859#2860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="463" column="62" selection-start-line="463" selection-start-column="46" selection-end-line="463" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/bootstrap/BootstrapConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/MessageSubscribeListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.25.Final/netty-transport-4.0.25.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/util/AttributeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="350" column="29" selection-start-line="350" selection-start-column="21" selection-end-line="350" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-          <folding>
-            <element signature="e#3250#3251#0" expanded="true" />
-            <element signature="e#3280#3281#0" expanded="true" />
-          </folding>
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/MapToMessage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/parser/MapToMessage.java" />
-    <entry file="file://$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/types/CommandResult.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/parser/MessageParser.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/HTTPClient.java">
+    <entry file="file://$PROJECT_DIR$/src/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/Config.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/socket/nio/NioSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="112">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/startup.sh">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/OnlineStateQueryListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        <state relative-caret-position="316">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/AlarmServer.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/ForwardHTTPClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="312">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/ChannelQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
-            <element signature="e#717#745#0" expanded="true" />
-            <element signature="e#1287#2033#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/MessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/ServerContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-988">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/ChannelAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/HostCommandListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/types/Message.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="33">
+          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/qqhl/andaalarm/data/message/MessageTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/AlarmServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="327">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#922#939#0" expanded="true" />
+            <element signature="e#1471#2240#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2597#2598#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/test-data-builder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/corundumstudio/socketio/netty-socketio/1.7.7/netty-socketio-1.7.7-sources.jar!/com/corundumstudio/socketio/listener/ClientListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/corundumstudio/socketio/netty-socketio/1.7.7/netty-socketio-1.7.7-sources.jar!/com/corundumstudio/socketio/SocketIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="229" column="30" selection-start-line="229" selection-start-column="30" selection-end-line="229" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="104">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -962,46 +934,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/安达报警通信协议(17-9).txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="-918">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/HostCommandListener.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/CommandResultParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="312">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/WebSocketServer.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/HostEventMessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="312">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/ClientSubscription.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/HostHeartbeatMessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="339">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/websocket/listeners/MessageSubscribeListener.java">
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/HostLoginRequestMessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="81">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/decode/parser/MessageParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qqhl/andaalarm/server/socket/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1012,7 +1005,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>anda_alarm_server:jar</last-edited>
+          <last-edited>data:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

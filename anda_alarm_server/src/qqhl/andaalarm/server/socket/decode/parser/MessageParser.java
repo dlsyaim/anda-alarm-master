@@ -1,5 +1,6 @@
-package qqhl.andaalarm.server.socket.parser;
+package qqhl.andaalarm.server.socket.decode.parser;
 
+import io.netty.buffer.ByteBuf;
 import qqhl.andaalarm.data.message.types.Message;
 
 import java.io.IOException;
@@ -10,15 +11,11 @@ import java.io.IOException;
  */
 public class MessageParser {
     /* 解析消息字节 */
-    public static Message parse(byte[] bytes) throws IOException {
-        int type = bytes[0];
+    public static Message parse(ByteBuf byteBuf) throws IOException {
+        int type = byteBuf.readUnsignedByte();
         AbstractMessageParser parser = factory(type);
 
-        int[] unsignBytes = new int[bytes.length - 1];
-        for (int i = 1; i < bytes.length; i++) {
-            unsignBytes[i - 1] = bytes[i] & 0xFF;
-        }
-        Message message = parser.parse(unsignBytes);
+        Message message = parser.parse(byteBuf);
         message.type = type;
         return message;
     }

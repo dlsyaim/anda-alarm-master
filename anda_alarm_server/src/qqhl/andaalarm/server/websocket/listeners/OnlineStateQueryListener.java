@@ -14,7 +14,6 @@ public class OnlineStateQueryListener implements DataListener<String> {
 
     @Override
     public void onData(SocketIOClient client, String hostId, AckRequest ackRequest) throws Exception {
-        System.out.println(hostId);
         int ret = server.serverContainer.alarmServer.queryHostOnlineState(hostId);
         client.sendEvent("onlineState", ret);
     }
