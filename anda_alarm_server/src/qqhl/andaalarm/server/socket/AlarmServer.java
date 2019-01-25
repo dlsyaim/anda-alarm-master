@@ -42,7 +42,6 @@ public class AlarmServer {
                 .childHandler(new ChannelInitializer<NioSocketChannel>() {
                     @Override
                     protected void initChannel(NioSocketChannel socketChannel) throws Exception {
-                        System.out.println(socketChannel.id());
                         socketChannel.pipeline()
                             // 实现心跳检查
                             .addLast(new IdleStateHandler(idleTime, idleTime, idleTime, TimeUnit.MILLISECONDS))

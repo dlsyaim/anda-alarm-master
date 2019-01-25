@@ -70,6 +70,7 @@ public class WebSocketServer extends SocketIOServer {
                         send = true;
                     }
                 }
+
                 if (send) {
                     if (ArrayUtils.contains(subscription.getMessageTypes(), message.type)) {
                         if (message instanceof HostEventMessage) {
@@ -81,6 +82,7 @@ public class WebSocketServer extends SocketIOServer {
                         }
                     }
                 }
+
             }
 
             if (send) {

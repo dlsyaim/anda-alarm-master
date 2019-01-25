@@ -4,6 +4,8 @@ import io.netty.buffer.ByteBuf;
 import qqhl.andaalarm.data.message.types.Message;
 import qqhl.andaalarm.data.message.types.HostHeartbeatMessage;
 
+import java.util.Arrays;
+
 /**
  * @author hulang
  */
