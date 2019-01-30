@@ -72,6 +72,7 @@ public class WebSocketServer extends SocketIOServer {
                 }
 
                 if (send) {
+                    send = false;
                     if (ArrayUtils.contains(subscription.getMessageTypes(), message.type)) {
                         if (message instanceof HostEventMessage) {
                             if (ArrayUtils.contains(subscription.getSubTypes(), ((HostEventMessage) message).eventType)) {

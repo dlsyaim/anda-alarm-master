@@ -12,4 +12,8 @@ import java.util.Date;
 @Data
 public class IdleStateEventMessage extends Message {
     public Date datetime;
+
+    public IdleStateEventMessage() {
+        this.type = 0;
+    }
 }
