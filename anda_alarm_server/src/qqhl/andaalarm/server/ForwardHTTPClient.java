@@ -32,4 +32,15 @@ public class ForwardHTTPClient  {
             e.printStackTrace();
         }
     }
+
+    public static void main(String[] args) {
+        HostEventMessage message = new HostEventMessage();
+        message.type = 0X02;
+        message.hostId = "1598F3467FBCE334";
+        message.eventType = 0X1120;
+        message.state = 1;
+        message.datetime = new java.util.Date();
+        message.operator = 1;
+        System.out.println(JsonUtils.messageJson(message));
+    }
 }
