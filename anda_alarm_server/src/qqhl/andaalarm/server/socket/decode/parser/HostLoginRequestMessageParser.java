@@ -1,6 +1,7 @@
 package qqhl.andaalarm.server.socket.decode.parser;
 
 import io.netty.buffer.ByteBuf;
+import org.apache.commons.lang3.StringUtils;
 import qqhl.andaalarm.data.message.types.HostLoginRequestMessage;
 import qqhl.andaalarm.data.message.types.Message;
 
@@ -19,7 +20,7 @@ public class HostLoginRequestMessageParser extends AbstractMessageParser {
         // 读取主机设备id
         byte[] hostIdBytes = new byte[8];
         byteBuf.readBytes(hostIdBytes, 0, 8);
-        msg.hostId = new BigInteger(hostIdBytes).toString(16).toUpperCase();
+        msg.hostId = StringUtils.leftPad(new BigInteger(hostIdBytes).toString(16).toUpperCase(), 16, '0');
 
         return msg;
     }

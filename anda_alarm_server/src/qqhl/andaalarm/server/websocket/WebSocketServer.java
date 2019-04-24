@@ -57,7 +57,7 @@ public class WebSocketServer extends SocketIOServer {
         String channel = null;
         for (SocketIOClient client : this.getAllClients()) {
             boolean send = false;
-            ClientSubscription subscription = (ClientSubscription)client.get("subscription");
+            ClientSubscription subscription = client.get("subscription");
             if (subscription != null) {
                 if (StringUtils.isNotEmpty(subscription.getHostId())) {
                     if (message.getHostId().equals(subscription.getHostId())) {
