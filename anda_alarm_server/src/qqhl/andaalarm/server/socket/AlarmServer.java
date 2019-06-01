@@ -21,8 +21,8 @@ public class AlarmServer {
     public boolean isRunning = false;
     private int port;
 
-    Map<Channel, ChannelAttachment> channelAttachmentMap = new HashMap<Channel, ChannelAttachment>();
-    Map<String, Channel> hostChannelMap = new HashMap<String, Channel>();
+    Map<Channel, ChannelAttachment> channelAttachmentMap = new HashMap<>();
+    Map<String, Channel> hostChannelMap = new HashMap<>();
 
     public AlarmServer(int port, ServerContainer serverContainer) {
         this.serverContainer = serverContainer;
@@ -63,8 +63,19 @@ public class AlarmServer {
         }
     }
 
-    public int queryHostOnlineState(String hostId) {
-        return hostChannelMap.get(hostId) != null ? 1 : 0;
+    public Map<String, Object> queryHostState(String hostId) {
+        Map<String, Object> ret = new HashMap<>();
+        Channel channel =  hostChannelMap.get(hostId);
+        ret.put("online", channel != null ? 1 : 0);
+        if (channel != null) {
+            ChannelAttachment attr = channelAttachmentMap.get(channel);
+            if (attr != null) {
+                ret.put("latestHeartbeatMessage", attr.latestHostHeartbeatMessage);
+                ret.put("latestHeartbeatTime", attr.latestHostHeartbeatTime);
+            }
+        }
+
+        return ret;
     }
 
     public int sendCommand(HostCommand hostCommand) {

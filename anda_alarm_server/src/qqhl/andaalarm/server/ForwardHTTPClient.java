@@ -7,6 +7,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.ContentType;
 import qqhl.andaalarm.data.message.JsonUtils;
 import qqhl.andaalarm.data.message.types.HostEventMessage;
+import qqhl.andaalarm.data.message.types.IdleStateEventMessage;
 import qqhl.andaalarm.data.message.types.Message;
 
 /**
@@ -17,7 +18,7 @@ public class ForwardHTTPClient  {
     private static String forwardUrl = Config.getProperty("forward.url");
 
     public static void doPost(Message message) throws Exception {
-        if (!(message instanceof HostEventMessage)) {
+        if (!(message instanceof HostEventMessage || message instanceof IdleStateEventMessage)) {
             return;
         }
         HttpPost post = new HttpPost(forwardUrl);

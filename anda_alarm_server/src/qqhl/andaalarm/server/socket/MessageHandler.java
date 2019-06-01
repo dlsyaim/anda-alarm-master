@@ -5,10 +5,12 @@ import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.timeout.IdleStateEvent;
+import qqhl.andaalarm.data.message.types.HostHeartbeatMessage;
 import qqhl.andaalarm.data.message.types.HostLoginRequestMessage;
 import qqhl.andaalarm.data.message.types.IdleStateEventMessage;
 import qqhl.andaalarm.data.message.types.Message;
 import qqhl.andaalarm.server.ForwardHTTPClient;
+import sun.plugin2.message.HeartbeatMessage;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -69,6 +71,11 @@ public class MessageHandler extends ChannelInboundHandlerAdapter {
             alarmServer.hostChannelMap.put(message.hostId, channel);
         }
         message.hostId = attr.hostId;
+
+        if (message instanceof HostHeartbeatMessage) {
+            attr.latestHostHeartbeatTime = System.currentTimeMillis();
+            attr.latestHostHeartbeatMessage = (HostHeartbeatMessage) message;
+        }
 
         doResponse(message, channel);
         forwardMessage(message);

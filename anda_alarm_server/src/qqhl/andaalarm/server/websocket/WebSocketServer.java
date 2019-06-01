@@ -11,9 +11,7 @@ import qqhl.andaalarm.server.ServerContainer;
 import qqhl.andaalarm.server.socket.HostCommand;
 import qqhl.andaalarm.server.websocket.listeners.HostCommandListener;
 import qqhl.andaalarm.server.websocket.listeners.MessageSubscribeListener;
-import qqhl.andaalarm.server.websocket.listeners.OnlineStateQueryListener;
-
-import java.util.Arrays;
+import qqhl.andaalarm.server.websocket.listeners.StateQueryListener;
 
 
 /**
@@ -37,7 +35,7 @@ public class WebSocketServer extends SocketIOServer {
             inited = true;
         }
         super.start();
-        this.addEventListener("onlineStateQuery", String.class, new OnlineStateQueryListener(this));
+        this.addEventListener("stateQuery", String.class, new StateQueryListener(this));
         this.addEventListener("hostCommand", HostCommand.class, new HostCommandListener(this));
         this.addEventListener("messageSubscribe", ClientSubscription.class, new MessageSubscribeListener(this));
         isRunning = true;
@@ -51,9 +49,6 @@ public class WebSocketServer extends SocketIOServer {
     }
 
     public void sendMessageToClients(Message message) {
-        if (message instanceof HostLoginRequestMessage) {
-            return;
-        }
         String channel = null;
         for (SocketIOClient client : this.getAllClients()) {
             boolean send = false;
@@ -64,10 +59,14 @@ public class WebSocketServer extends SocketIOServer {
                         send = true;
                     }
                 } else if (StringUtils.isNotEmpty(subscription.getChannel())) {
-                    if (channel == null)
-                        channel = ChannelQuery.getChannelByHostId(message.getHostId());
-                    if (channel != null && channel.equals(subscription.getChannel())) {
+                    if (subscription.getChannel().equals("0")) {
                         send = true;
+                    } else {
+                        if (channel == null)
+                            channel = ChannelQuery.getChannelByHostId(message.getHostId());
+                        if (channel != null && channel.equals(subscription.getChannel())) {
+                            send = true;
+                        }
                     }
                 }
 
