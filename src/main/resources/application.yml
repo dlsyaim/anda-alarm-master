@@ -1,0 +1,21 @@
+server:
+  port: 8600
+
+logging:
+  path: .
+  file: log.log
+
+spring:
+  datasource:
+    url: jdbc:mysql://xxx:3306/wearable_device_db?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
+    username: xxx
+    password: yyy
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+websocketServer:
+  host: xxx
+  port: 9094
+
+alarmServer:
+  port: 2012
+  heartbeatTimeout: 50000

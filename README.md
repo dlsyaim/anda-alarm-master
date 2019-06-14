@@ -1,1 +1,0 @@
-# anda_alarm_system
