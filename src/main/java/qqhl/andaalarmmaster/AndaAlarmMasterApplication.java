@@ -7,6 +7,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 import qqhl.andaalarmmaster.servers.server.AlarmServer;
 import qqhl.andaalarmmaster.servers.websocket.WebSocketServer;
 
+import java.util.TimeZone;
+
 @SpringBootApplication
 public class AndaAlarmMasterApplication {
     @Autowired
@@ -14,6 +16,7 @@ public class AndaAlarmMasterApplication {
     public static WebSocketServer webSocketServer;
 
     public static void main(String[] args) {
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
         ConfigurableApplicationContext context = SpringApplication.run(AndaAlarmMasterApplication.class, args);
         alarmServer = context.getBean(AlarmServer.class);
         webSocketServer = context.getBean(WebSocketServer.class);

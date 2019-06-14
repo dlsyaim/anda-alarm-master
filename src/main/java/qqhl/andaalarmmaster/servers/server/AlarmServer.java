@@ -88,8 +88,8 @@ public class AlarmServer {
                     hostStateInfo.setSupplyVoltage(attr.latestHostHeartbeatMessage.supplyVoltage * 0.01f);
                     hostStateInfo.setOutputVoltage(attr.latestHostHeartbeatMessage.outputVoltage * 0.01f);
                     hostStateInfo.setBatteryVoltage(attr.latestHostHeartbeatMessage.batteryVoltage * 0.01f);
+                    hostStateInfo.setLastUpdateTime(new SimpleDateFormat("yyyy-MM-dd-HH:mm:ss").format(attr.latestHostHeartbeatTime));
                 }
-                hostStateInfo.setLastUpdateTime(new SimpleDateFormat("yyyy-MM-dd-HH:mm:ss").format(attr.latestHostHeartbeatTime));
             }
         }
 

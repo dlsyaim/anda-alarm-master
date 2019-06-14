@@ -26,7 +26,7 @@ public class HostControlController {
     @ApiOperation(value="设置某个主机的布防/撤防状态")
     @ApiImplicitParams({
         @ApiImplicitParam(name="hostId", value="电话ID", required=true, paramType="path"),
-        @ApiImplicitParam(name="state", value="1=布防、2=撤防", required=true, dataType = "int", paramType="query"),
+        @ApiImplicitParam(name="state", value="1=布防、2=撤防", required=true, dataType = "int"),
     })
     @PostMapping("/{hostId}/defence-state")
     public Result setDefenceState(@PathVariable String hostId, int state) {
@@ -39,8 +39,8 @@ public class HostControlController {
     @ApiOperation(value="开关某个主机的警铃")
     @ApiImplicitParams({
         @ApiImplicitParam(name="hostId", value="电话ID", required=true, paramType="path"),
-        @ApiImplicitParam(name="on", value="0=关，1=开", required=true, dataType = "int", paramType="query"),
-        @ApiImplicitParam(name="offDelay", value="当开时，定时自动关，单位毫秒；-1表示不自动关", defaultValue="500", dataType = "long", paramType="query"),
+        @ApiImplicitParam(name="on", value="0=关，1=开", required=true, dataType = "int"),
+        @ApiImplicitParam(name="offDelay", value="当开时，定时自动关，单位毫秒；-1表示不自动关", defaultValue="500", dataType = "long"),
     })
     @PostMapping("/{hostId}/bell")
     public Result turnBell(@PathVariable String hostId, int on, Long offDelay) {
